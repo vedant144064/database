@@ -2,13 +2,17 @@
   "name": "database",
   "version": "1.0.0",
   "description": "backend at billionare",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon scr/index.js"
   },
   "keywords": [
     "money"
   ],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
